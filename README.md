@@ -15,6 +15,7 @@ syntax, you have to write it in a `group_vars` directory.
 
 ```yaml
 # inventory/group_vars/GROUP_NAME
+disk_configure: true
 disk_additional_disks:
  - disk: /dev/sdb
    fstype: ext4
